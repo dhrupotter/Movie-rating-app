@@ -1,0 +1,117 @@
+.App{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+a:visited{ color: aliceblue }
+:link{
+  text-decoration: none;
+  color:rgb(43, 43, 43) ;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+  margin: 0;
+  padding: 8px 20px;
+}
+.navbar input{
+  width: 400px;
+}
+h1{
+  margin: 0; 
+}
+
+p{
+  margin: 0; 
+}
+.nav-tabs{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  color: aliceblue;
+}
+
+.nav-tabs :link{
+  color: aliceblue;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.single-movie-card{
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+  width: 600px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.movie-img-container{
+  position: relative;
+}
+
+.movie-img {
+  border-radius: 5px;
+  margin: 10px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.movie-list-section {
+  width: 85%;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem 0rem;
+  list-style: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 5px 10px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 10px;
+  height: 170px;
+}
